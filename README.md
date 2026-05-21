@@ -29,12 +29,12 @@ The app currently tracks:
 
 ## How To Use
 
-Open `basketball-tracker.html` in a browser.
+Open `index.html` in a browser.
 
 You can double-click the file, or open it from a terminal:
 
 ```powershell
-start .\basketball-tracker.html
+start .\index.html
 ```
 
 Enter the game name and date, then use the plus and minus buttons to update each metric. Use **Copy** to copy a review summary, or **Clear** to reset the tracker for the next game.
@@ -47,11 +47,10 @@ Clearing browser site data or using a different browser/device will remove or hi
 
 ## Customizing Metrics
 
-To change the tracked metrics, edit the `metrics` array inside `basketball-tracker.html`.
+To change the tracked metrics, edit the `metrics` array inside `index.html`.
 
 Each metric has:
 
 - `id`: internal storage key
 - `name`: label shown in the app
 - `help`: short description shown below the label
-
